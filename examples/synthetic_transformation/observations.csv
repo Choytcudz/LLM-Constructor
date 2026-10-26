@@ -1,0 +1,6 @@
+observation_id,from_artifact,to_artifact,dimension,status,claim,contrary_evidence,unresolved_question
+O001,A001,A002,task_definition,OBSERVED,An open pathway question became an optimization recommendation,,
+O002,A001,A002,authority_location,OBSERVED,Decision authority moved toward efficiency criteria,,
+O003,A003,A004,repair_uptake,OBSERVED,The correction changed the next response from recommendation to reconstruction,,
+O004,A005,A006,method_recoverability,INFERRED,The evaluator recovered part of the visible staged method,Human coding remains necessary,
+O005,A001,A002,causal_source,UNRESOLVED,The artifacts do not establish why the transformation occurred,,Model training product instructions context and stochastic variation remain unresolved

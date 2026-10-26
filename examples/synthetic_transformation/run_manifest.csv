@@ -1,0 +1,12 @@
+field,value,status
+corpus_type,synthetic,RECORDED
+visible_prompt,recorded in A001,RECORDED
+model_1,synthetic placeholder,RECORDED
+model_2,synthetic placeholder,RECORDED
+product,not applicable,NOT_APPLICABLE
+system_instructions,not available,UNAVAILABLE
+memory,not available,UNAVAILABLE
+tools,none,RECORDED
+retrieval,none,RECORDED
+temperature_or_seed,not available,UNAVAILABLE
+timestamp,synthetic sequence only,RECORDED

@@ -1,0 +1,7 @@
+construct_id,status,evidence_artifact_ids,coder_note
+reconstruction_before_interpretation,MATCH,A006,Explicitly recovered
+interaction_as_unit,PARTIAL,A006,Sequence recovered but unit not formally named
+correction_preservation,MATCH,A006,Correction remains visible
+analyst_drift,PARTIAL,A002;A003;A004,Transformation reconstructed but not named as drift
+unresolved_preservation,ABSENT,A006,Blind output did not state unresolved causal alternatives
+recoverability_not_validity,UNRESOLVED,A006,Requires explicit evaluator distinction

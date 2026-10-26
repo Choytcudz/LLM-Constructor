@@ -1,0 +1,7 @@
+artifact_id,sequence,phase,actor,role,parent_id,content,provenance_status
+A001,1,initial_prompt,researcher,researcher,,What pathways appear when a public library considers changing weekend hours?,SYNTHETIC
+A002,2,constructor_response,model_1,constructor,A001,The library should optimize staffing costs and attendance before extending hours.,SYSTEM_GENERATED
+A003,3,correction,researcher,researcher,A002,Observation only. Do not recommend. Identify how the question changed before answering.,HUMAN_CORRECTION
+A004,4,revised_response,model_1,constructor,A003,The open pathway question became an optimization problem centered on staffing and attendance.,TRANSFORMED
+A005,5,blind_reconstruction_prompt,researcher,evaluator,A001;A002;A003;A004,Review the complete corpus and reconstruct only the visible method. Do not infer hidden cognition.,SYNTHETIC
+A006,6,blind_reconstruction,model_2,evaluator,A005,The sequence preserves an initial prompt a narrowing response a correction and a revised reconstruction. Observation precedes explanation.,SYSTEM_GENERATED
